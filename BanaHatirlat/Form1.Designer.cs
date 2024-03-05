@@ -38,12 +38,12 @@
             this.BtnMuzikSec = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.TxtDosyaYolu = new System.Windows.Forms.TextBox();
-            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.TimerPanel = new System.Windows.Forms.Timer(this.components);
             this.TxtTekrar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.BtnGenislet = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -113,17 +113,6 @@
             this.TxtDosyaYolu.Name = "TxtDosyaYolu";
             this.TxtDosyaYolu.Size = new System.Drawing.Size(100, 24);
             this.TxtDosyaYolu.TabIndex = 0;
-            this.TxtDosyaYolu.Text = "C:\\Users\\Asus\\Downloads\\call-to-attention-123107.mp3";
-            // 
-            // axWindowsMediaPlayer1
-            // 
-            this.axWindowsMediaPlayer1.Enabled = true;
-            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(12, 189);
-            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
-            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(142, 23);
-            this.axWindowsMediaPlayer1.TabIndex = 5;
-            this.axWindowsMediaPlayer1.Visible = false;
             // 
             // TimerPanel
             // 
@@ -173,6 +162,16 @@
             this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 9;
             this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // axWindowsMediaPlayer1
+            // 
+            this.axWindowsMediaPlayer1.Enabled = true;
+            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(12, 189);
+            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
+            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
+            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(142, 23);
+            this.axWindowsMediaPlayer1.TabIndex = 5;
+            this.axWindowsMediaPlayer1.Visible = false;
             // 
             // Form1
             // 
