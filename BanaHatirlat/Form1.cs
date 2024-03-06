@@ -9,6 +9,7 @@ using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace BanaHatirlat
 {
@@ -117,5 +118,16 @@ namespace BanaHatirlat
             }
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string previousValue = Properties.Settings.Default.PreviousValue;
+            TxtDosyaYolu.Text = previousValue;
+        }
+
+        private void TxtDosyaYolu_TextChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.PreviousValue = TxtDosyaYolu.Text;
+            Properties.Settings.Default.Save();
+        }
     }
 }
