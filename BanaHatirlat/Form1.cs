@@ -187,16 +187,17 @@ namespace BanaHatirlat
             this.Text = $"{formName} [{TimeSpan.FromSeconds(secondsRemaining).ToString(@"mm\:ss")}]";
 
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Properties.Settings.Default.PreviousValue = TxtDosyaYolu.Text;
+            Properties.Settings.Default.Save();
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             string previousValue = Properties.Settings.Default.PreviousValue;
             TxtDosyaYolu.Text = previousValue;
-        }
-
-        private void TxtDosyaYolu_TextChanged(object sender, EventArgs e)
-        {
-            Properties.Settings.Default.PreviousValue = TxtDosyaYolu.Text;
-            Properties.Settings.Default.Save();
         }
     }
 }
