@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BanaHatirlat", "BanaHatirlat\BanaHatirlat.csproj", "{57A0929F-E49A-422C-B5DD-C583C312C750}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{EC4EC697-B116-43AE-B9DB-DF4434D260B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{57A0929F-E49A-422C-B5DD-C583C312C750}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57A0929F-E49A-422C-B5DD-C583C312C750}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57A0929F-E49A-422C-B5DD-C583C312C750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4EC697-B116-43AE-B9DB-DF4434D260B0}.Debug|Any CPU.ActiveCfg = Debug
+		{EC4EC697-B116-43AE-B9DB-DF4434D260B0}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
